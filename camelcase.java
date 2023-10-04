@@ -12,7 +12,7 @@ class Result {
     public static int camelcase(String s) {
         // Write your code here
         int words = 1;
-        for (int i = 0; i < s.length(); i++) {
+        for (int i = 1; i < s.length(); i++) {
             char character = s.charAt(i);
             if (Character.isUpperCase(character)) {
                 words++;
