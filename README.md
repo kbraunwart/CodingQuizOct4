@@ -15,7 +15,8 @@ Corectness & Loop INvariant Time Copmlexity:
 O(n^2) as the final (n-1) indices of the integer
 array A of length n are iterated through in a
 for loop and the while loop nested within the for
-loop runs O(n) times 
+loop runs O(n) times as it iterates from j = (i-1) to j = 0
+as long as the value at A[j] is greater than the value variable.
 
 Correctness & Loop Invariant SPace Complexity:
 O(c) as three integers are initialized and used to
